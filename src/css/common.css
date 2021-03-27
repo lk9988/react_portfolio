@@ -1,0 +1,31 @@
+@value color-white: #ffffff;
+@value color-light-white: #eeeeee;
+@value color-dark-white: #bdbdbd;
+@value color-pink: #fe918d;
+@value color-dark-pink: #ff6863;
+@value color-black: #4d4d4d;
+@value color-dark-grey: #4d4d4d;
+@value color-grey: #616161;
+@value color-light-grey: #7c7979;
+@value color-blue: #73aace;
+@value color-yellow: #fff7d1;
+@value color-orange: #feb546;
+@value color-black: #000000;
+
+/* Font size */
+@value font-large: 48px;
+@value font-medium: 28px;
+@value font-regular: 18px;
+@value font-small: 16px;
+@value font-micro: 14px;
+
+/* Font weight */
+@value weight-bold: 700;
+@value weight-semi-bold: 600;
+@value weight-regular: 400;
+
+/* Size */
+@value size-border-radius: 4px;
+
+/* Annimation */
+@value animation-duration: 300ms;

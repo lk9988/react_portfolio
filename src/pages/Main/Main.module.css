@@ -1,0 +1,39 @@
+/* @value color-light-white, color-white from "../../css/common.css"; */
+/* @value font-regular, weight-bold from "../../css/common.css";
+@value size-border-radius from "../../css/common.css"; */
+
+.home {
+	background-image: url("../../images/home-background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 40px;
+	text-align: center;
+	height: 100vh;
+}
+
+.avatar {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	border: 2px solid #eeeeee;
+}
+
+.title,
+.description {
+	color: #ffffff;
+}
+
+.contact {
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 24px;
+	padding: 8px 12px;
+	border: 2px solid #ffffff;
+	border-radius: 4px;
+}
+.a {
+	text-decoration: none;
+	color: #ffffff;
+}

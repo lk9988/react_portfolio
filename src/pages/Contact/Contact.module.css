@@ -1,0 +1,37 @@
+@value color-pink, color-black, color-yellow, font-large, weight-bold from "../../css/common.css";
+@value font-medium, weight-semi-bold, font-large, weight-bold from "../../css/common.css";
+
+.section {
+	padding: 50px;
+	text-align: center;
+	margin: auto;
+	height: 100vh;
+	background-color: color-pink;
+}
+.a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.title {
+	margin: 32px 0;
+	font-size: font-large;
+	font-weight: weight-bold;
+	color: #ffffff;
+	margin: 16px 0px;
+}
+.email {
+	font-size: font-medium;
+	font-weight: weight-semi-bold;
+	color: color-black;
+	margin: 8px 0;
+}
+
+.links {
+	font-size: font-large;
+	margin: 24px 0;
+}
+
+.icon {
+	font-size: 36px;
+}

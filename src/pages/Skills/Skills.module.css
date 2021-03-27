@@ -1,0 +1,115 @@
+@value color-yellow, color-light-grey, color-dark-grey, color-light-white, color-black, color-orange, color-grey from "../../css/common.css";
+@value font-large, font-medium, font-regular from "../../css/common.css";
+@value weight-bold, weight-semi-boldfrom "../../css/common.css";
+
+.section {
+	padding: 50px;
+	text-align: center;
+	margin: auto;
+	background-color: color-yellow;
+	display: flex;
+}
+
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+.h1 {
+	font-size: font-large;
+	font-weight: weight-bold;
+	color: color-black;
+	margin: 16px 0px;
+}
+
+.h2 {
+	font-size: font-medium;
+	font-weight: weight-semi-bold;
+	color: color-black;
+	margin: 8px 0;
+}
+
+.h3 {
+	font-size: font-regular;
+	font-weight: font-regular;
+	color: color-black;
+	margin: 8px 0;
+}
+
+.p {
+	font-size: font-regular;
+	font-weight: font-regular;
+	color: color-black;
+	margin: 4px 0;
+}
+.skillset {
+	display: flex;
+	background-color: color-light-grey;
+	color: color-light-white;
+	margin: 20px 0;
+}
+
+.skillset__title {
+	color: color-white;
+}
+.left {
+	flex-basis: 60%;
+	background-color: color-dark-grey;
+	padding: 20px 40px;
+}
+
+.skill {
+	margin-bottom: 32px;
+}
+
+.skill_description {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill_bar {
+	width: 100%;
+	height: 3px;
+	background-color: color-grey;
+}
+
+.skill_value {
+	height: 3px;
+	background-color: color-orange;
+}
+
+.right {
+	flex-basis: 40%;
+}
+
+.tools {
+	padding: 20px;
+}
+.html {
+	width: 99%;
+}
+.css {
+	width: 80%;
+}
+.js {
+	width: 70%;
+}
+.react {
+	width: 60%;
+}
+.node {
+	width: 60%;
+}
+.express {
+	width: 70%;
+}
+.mongo {
+	width: 65%;
+}
+.mysql {
+	width: 65%;
+}
+@media screen and (max-width: 768px) {
+	.skillset {
+		flex-direction: column;
+	}
+}

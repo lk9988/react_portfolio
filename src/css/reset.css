@@ -1,0 +1,61 @@
+@value color-white, color-black  from "./common.css";
+@value font-large, font-medium, weight-bold  from "./common.css";
+@value weight-bold,weight-semi-bold from "./common.css";
+/* Universal tags */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: color-white;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+button {
+	background-color: transparent;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+
+/* Typography */
+h1 {
+	font-size: font-large;
+	font-weight: weight-bold;
+	color: color-black;
+	margin: 16px 0px;
+}
+
+h2 {
+	font-size: font-medium;
+	font-weight: weight-semi-bold;
+	color: color-black;
+	margin: 8px 0;
+}
+
+h3 {
+	font-size: font-regular;
+	font-weight: font-regular;
+	color: color-black;
+	margin: 8px 0;
+}
+
+p {
+	font-size: font-regular;
+	font-weight: font-regular;
+	color: color-black;
+	margin: 4px 0;
+}

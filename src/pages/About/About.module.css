@@ -1,0 +1,91 @@
+@value font-large, weight-bold, colod-black, color-blue, animation-duration, color-pink,color-dark-grey, font-small, font-micro from "../../css/common.css";
+
+.container {
+	padding: 50px;
+	text-align: center;
+	margin: auto;
+	max-width: 1200px;
+}
+.majors {
+	display: flex;
+	justify-content: space-around;
+	margin: 80px 0;
+}
+.about {
+	font-size: font-large;
+	font-weight: weight-bold;
+	color: color-black;
+	margin: 16px 0px;
+}
+
+.icon {
+	width: 170px;
+	height: 170px;
+	line-height: 170px;
+	font-size: 70px;
+	margin: auto;
+	color: color-blue;
+	border: 1px solid color-blue;
+	border-radius: 50%;
+	margin-bottom: 16px;
+}
+/* stying failed...  */
+.i {
+	transition: all animation-duration ease;
+}
+/* not working  */
+.i:hover {
+	color: color-pink;
+	transform: rotate(-30deg) scale(1.1);
+}
+
+.title,
+.description {
+	color: color-dark-grey;
+}
+
+.description {
+	font-size: font-small;
+}
+
+.job {
+	display: flex;
+	align-items: center;
+}
+
+.job_description {
+	margin: 0 16px;
+	text-align: left;
+}
+.job_name,
+.period {
+	color: color-light-grey;
+}
+
+.job_name {
+	font-size: font-small;
+}
+
+.period {
+	font-size: font-micro;
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
+}
+.h3 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #000000;
+	margin: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+	.majors {
+		flex-direction: column;
+	}
+	.major {
+		margin-bottom: 38px;
+	}
+}

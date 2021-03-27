@@ -1,0 +1,15 @@
+@value color-white, color-pink from "../../css/common.css";
+
+.section {
+	background-color: color-pink;
+	padding: 10px;
+	text-align: center;
+
+	left: 0;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+}
+.rights {
+	color: color-white;
+}

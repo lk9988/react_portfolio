@@ -1,0 +1,70 @@
+@value color-light-white, color-light-grey, color-dark-whitefrom "../../css/common.css";
+
+.card,
+.link {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	border-radius: 1em;
+	margin-bottom: 0.5em;
+	padding: 0.2em 0;
+
+	max-width: 40rem;
+
+	text-decoration: none;
+}
+
+.img {
+	width: 15rem;
+	height: 15rem;
+	padding: 1em;
+	margin-left: 0.5em;
+	margin-right: 1em;
+}
+
+.info {
+	width: 100%;
+}
+
+.title,
+.des {
+	margin: 0;
+	font-size: 1rem;
+	margin-bottom: 0.2em;
+	color: #4d4d4d;
+	text-decoration: none;
+}
+
+.title {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+	.link,
+	.card {
+		max-width: 30rem;
+	}
+
+	.img {
+		width: 10rem;
+		height: 10rem;
+		padding: 1em;
+		margin-left: 0.5em;
+		margin-right: 1em;
+	}
+
+	.title,
+	.des {
+		margin: 0;
+		font-size: 0.8rem;
+		margin-bottom: 0.2em;
+		color: #4d4d4d;
+		text-decoration: none;
+	}
+
+	.title {
+		font-size: 1.2em;
+		font-weight: 600;
+	}
+}

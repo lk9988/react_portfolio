@@ -1,0 +1,70 @@
+@value color-pink, color-white, color-dark-pink from "../../css/common.css";
+
+@value weight-semi-bold from "../../css/common.css";
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px;
+	background-color: color-pink;
+}
+
+.logo {
+	font-size: 28px;
+	font-weight: weight-semi-bold;
+	color: color-white;
+}
+.a {
+	text-decoration: none;
+	color: color-white;
+}
+
+.menu {
+	display: flex;
+}
+
+.menu_item {
+	padding: 8px 12px;
+	margin: 0 4px;
+	color: color-white;
+	cursor: pointer;
+	border: 1px solid transparent;
+	border-radius: 4px;
+}
+.h5 {
+	margin-top: 2px;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.active {
+	border: 1px solid white;
+	border-radius: 4px;
+}
+
+.menu_item:hover {
+	background-color: color-dark-pink;
+	border-color: color-white;
+}
+
+.btn {
+	position: absolute;
+	top: 24px;
+	right: 32px;
+	font-size: 24px;
+	color: color-white;
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.navbar {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.menu {
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+	}
+}
