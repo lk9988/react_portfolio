@@ -11,7 +11,7 @@ const MyWork = (props) => {
 			id: "1",
 			title: "POOADAY",
 			des: "Full-stack app with MySQL",
-			fileURL: "/images/pooaday.png",
+			fileURL: "./images/pooaday.png",
 			// need to change to public folder or conditional 
 			link: "https://pooaday.herokuapp.com",
 		},
@@ -19,7 +19,7 @@ const MyWork = (props) => {
 			id: "2",
 			title: "Worry Monster",
 			des: "Full-stack React app with MongoDB",
-			fileURL: "/images/worrymonster.png",
+			fileURL: "./images/worrymonster.png",
 			link: "https://github.com/LauraGwendolynBurch/worry_monster",
 		},
 		{
