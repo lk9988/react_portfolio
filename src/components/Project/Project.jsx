@@ -13,7 +13,7 @@ const Project = ({ card }) => {
 	return (
 		<li className={styles.card}>
 			<a href={link} className={styles.link}>
-				<img className={styles.img} src = {url} alt="project photo" />
+				<img className={styles.img} src={url} alt="project photo" />
 
 				<div className={styles.info}>
 					<h1 className={styles.title}>{title}</h1>

@@ -7,8 +7,8 @@ const Container = ({ cards }) => {
 		<>
 			<h1 className={styles.h1}>My Work</h1>
 			<ul className={styles.cards}>
-				{cards.map((card) => (
-					<Project card={card} />
+				{cards.map((card, i) => (
+					<Project card={card} key={i} />
 				))}
 			</ul>
 		</>
