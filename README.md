@@ -21,7 +21,7 @@ This is a React Portfolio of Lana Kim.
 ## Deployed Link <a name="link"></a>
 
 The project is deployed to Github page and available for view :
-<https://lk9988.github.io/react_portfolio/#/Main>
+<https://lana-react-portfolio.herokuapp.com/>
 
 ## Tech Used <a name="tech"></a>
 
