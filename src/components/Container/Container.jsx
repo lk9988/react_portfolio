@@ -1,5 +1,5 @@
 import React from "react";
-import Project from "../components/Project/Project";
+import Project from "../Project/Project";
 import styles from "./Container.module.css";
 
 const Container = ({ cards }) => {
