@@ -9,6 +9,7 @@ const Project = ({ card }) => {
 	console.log(card, "card");
 
 	const url = fileURL;
+	console.log(url, "url");
 
 	return (
 		<li className={styles.card}>

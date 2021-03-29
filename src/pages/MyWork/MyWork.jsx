@@ -4,6 +4,10 @@ import React, { useState } from "react";
 import styles from "./MyWork.module.css";
 
 import Container from "../../components/Container/Container";
+import pooaday from "../../images/pooaday.png";
+import worry_monster from "../../images/worrymonster.png";
+import project1 from "../../images/project1.png";
+import budget from "../../images/budget.png";
 
 const MyWork = (props) => {
 	const [cards, setCards] = useState([
@@ -11,28 +15,28 @@ const MyWork = (props) => {
 			id: "1",
 			title: "POOADAY",
 			des: "Full-stack app with MySQL",
-			fileURL: "/images/pooaday.png",
+			fileURL: pooaday,
 			link: "https://pooaday.herokuapp.com",
 		},
 		{
 			id: "2",
 			title: "Worry Monster",
 			des: "Full-stack React app with MongoDB",
-			fileURL: "/images/worrymonster.png",
+			fileURL: worry_monster,
 			link: "https://github.com/LauraGwendolynBurch/worry_monster",
 		},
 		{
 			id: "3",
 			title: "Celeb Nationality Checker",
 			des: "Javascript with API",
-			fileURL: "/images/project1.png",
+			fileURL: project1,
 			link: "https://pooaday.herokuapp.com",
 		},
 		{
 			id: "4",
 			title: "Budget Tracker",
 			des: "Online/Offline app with IndexedDB",
-			fileURL: "/images/budget.png",
+			fileURL: budget,
 			link: "https://budget-tracker-off.herokuapp.com/",
 		},
 	]);
